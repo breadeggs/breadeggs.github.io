@@ -777,3 +777,8 @@ document.addEventListener('DOMContentLoaded', function () {
   refreshFn()
   unRefreshFn()
 })
+
+
+function scrollToTop() {
+    btf.scrollToDest(0, 500);
+}
